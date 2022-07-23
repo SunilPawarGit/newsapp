@@ -8,7 +8,7 @@ export default class News extends Component {
     pageSize: 18,
     country: "in",
     category: "general",
-    apiKey: process.env.API_KEY,
+    apiKey: "6077fe2186cc4d4db1bcd808be3a1376",
   };
   PropTypes = {
     pageSize: PropTypes.number,
