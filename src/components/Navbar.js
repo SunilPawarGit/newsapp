@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import reactGA from "react-ga4";
-reactGA.initialize();
+reactGA.initialize("G-R0371QD07B");
 export class Navbar extends Component {
   componentDidMount() {
     reactGA.pageview(window.location.pathname + window.location.search);
